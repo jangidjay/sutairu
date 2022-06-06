@@ -5,6 +5,7 @@ import About from "./Pages/About";
 import Cart from "./Pages/Cart";
 import Collections from "./Pages/Collections";
 import Product from "./Pages/Product";
+import ProductList from "./Pages/ProductList";
 import Signin from "./Pages/Signin";
 import Search from "./Pages/Search";
 import Register from "./Pages/Register";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/collections" element={<Collections />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/productlist" element={<ProductList />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/search" element={<Search />} />
         <Route path="/register" element={<Register />} />
